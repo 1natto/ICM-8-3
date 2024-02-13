@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../static/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Nunito:wght@300&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+
+    <div class="slider">
+        <div class="list">
+            <div class="item">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Taka_Shiba.jpg/1200px-Taka_Shiba.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="https://wafuu.com/cdn/shop/products/mmos-x-shiba-inu-pooping-dog-statue-747547_540x.jpg?v=1706141859" alt="">
+            </div>
+            <div class="item">
+                <img src="https://cdn.britannica.com/71/234471-050-093F4211/shiba-inu-dog-in-the-snow.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="https://vcdn-sohoa.vnecdn.net/2021/11/09/photo1636363995786-16363639959-1440-1736-1636431444.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/advisor/au/wp-content/uploads/2023/06/ShibaInuPricePrediction-scaled-e1687924700634.jpg" alt="">
+            </div>
+        </div>
+        <div class="buttons">
+            <button id="prev"><</button>
+            <button id="next">></button>
+        </div>
+        <ul class="dots">
+            <li class="active"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+        <form method="get" action="/draft1/">
+            <a href="draft1" id="bin" class="button button--piyo">
+                <div class="button__wrapper">
+                    <span class="button__text">ENTRY</span>
+                </div>
+                <div class="characterBox">
+                    <div class="character wakeup">
+                        <div class="character__face"></div>
+                    </div>
+                    <div class="character wakeup">
+                        <div class="character__face"></div>
+                    </div>
+                    <div class="character">
+                        <div class="character__face"></div>
+                    </div>
+                </div>
+            </a>
+
+        </form>
+    </div>
+
+    <script>
+        var button = document.getElementById('bin');
+        let slider = document.querySelector('.slider .list');
+        let items = document.querySelectorAll('.slider .list .item');
+        let next = document.getElementById('next');
+        let prev = document.getElementById('prev');
+        let dots = document.querySelectorAll('.slider .dots li');
+        var n = 0;
+        let lengthItems = items.length - 1;
+        let active = 0;
+        next.onclick = function(){
+            n++;
+            active = active + 1 <= lengthItems ? active + 1 : 0;
+            reloadSlider();
+            if (active == lengthItems){
+                show();
+            }
+
+        }
+        prev.onclick = function(){
+            active = active - 1 >= 0 ? active - 1 : lengthItems;
+            reloadSlider();
+            if (active == lengthItems){
+                show();
+            }
+
+        }
+        let refreshInterval = setInterval(()=> {next.click()}, 10000);
+        function reloadSlider(){
+            slider.style.left = -items[active].offsetLeft + 'px';
+            //
+            let last_active_dot = document.querySelector('.slider .dots li.active');
+            last_active_dot.classList.remove('active');
+            dots[active].classList.add('active');
+
+            clearInterval(refreshInterval);
+            refreshInterval = setInterval(()=> {next.click()}, 10000);
+
+
+        }
+
+        dots.forEach((li, key) => {
+            li.addEventListener('click', ()=>{
+                active = key;
+                reloadSlider();
+            })
+        })
+        window.onresize = function(event) {
+            reloadSlider();
+        };
+        function show(){
+            button.style.display = 'block';
+        }
+    </script>
+</body>
+</html>
