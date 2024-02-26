@@ -3,8 +3,6 @@ import os
 
 app = Flask(__name__)
 
-
-
 #-----------default ny
 @app.route("/", methods=['GET', 'POST'])
 def index():
