@@ -1,48 +1,44 @@
 
+body {
+  /* Common background properties */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow: hidden;
+  background-size: 100% 100%;
+  min-height: 100%;
+  image-rendering: crisp-edges;
+  image-rendering: -moz-crisp-edges;          /* Firefox */
+  image-rendering: -o-crisp-edges;            /* Opera */
+  image-rendering: -webkit-optimize-contrast; /* Webkit (non-standard naming) */
+  -ms-interpolation-mode: nearest-neighbor;   /* IE (non-standard property) */
+}
 
+/* Background for desktop */
+@media only screen and (min-width: 641px) {
   body {
-
-    /* background-size:     cover; */
-    background: url("/static/assests/web pc.png");
-    background-repeat:no-repeat;
-    background-attachment:fixed;
-    overflow:hidden;
-    background-size: 100% 100%;
-    min-height: 100%;
-    image-rendering: crisp-edges;
-    image-rendering: -moz-crisp-edges;          /* Firefox */
-    image-rendering: -o-crisp-edges;            /* Opera */
-    image-rendering: -webkit-optimize-contrast; /* Webkit (non-standard naming)*/
-    -ms-interpolation-mode: nearest-neighbor;   /* IE (non-standard property) */
+      background-image: url("/static/assests/web pc.png");
   }
-
-  @import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
-
-  /* body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #fae1dd;
-    margin: 0;
-  } */
-
-            /* may tinh */
-  @media only screen and (min-width: 642px) {}
-
   .container {
     position: relative;
     margin-left: 50rem;
-
   }
+}
 
-             /* dien thoai */
-    @media only screen and (max-width: 641px) {
-      .container {
-        position: relative;
-        margin: 10rem;
-      }
-    }
+/* Background for mobile */
+@media only screen and (max-width: 640px) {
+  body {
+      background-image: url("/static/assests/web dt.png");
+  }
+  .container {
+    position: relative;
+    margin: 10rem;
+  }
+}
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+  
+  
 
     @keyframes delivery {
       0% {

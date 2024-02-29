@@ -12,12 +12,20 @@ def submit():
     return render_template("submit.html")
 
 #-----------------(vugiahung)
-@app.route("/vgh1", methods=['GET', 'POST'])
+@app.route("/vgh1/", methods=['GET'])
 def vgh1():
-    return render_template("/vugiahung/vgh1.html")
+    return render_template("vgh1.html")
 @app.route("/vgh2/", methods=['GET'])
 def vgh2():
-    return render_template("/vugiahung/vgh2.html")
+    return render_template("vgh2.html")
+
+#--------------(vuanhminhkhoi)
+@app.route("/namk1/", methods=['GET'])
+def namk1():
+    return render_template("namk1.html")
+@app.route("/namk2/", methods=['GET'])
+def namk2():
+    return render_template("namk2.html")
 
 if __name__ == '__main__':
    app.run()
