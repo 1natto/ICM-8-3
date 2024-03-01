@@ -22,6 +22,26 @@ body {
     position: relative;
     margin-left: 50rem;
   }
+
+  .letter {
+    margin: auto;
+    max-width: 800px;
+    min-height: 375px;
+    position: relative;
+    overflow: hidden;
+    display: block;
+ }
+ .king {
+  color: #380501;
+  font-size: 2em;
+  font-family: 'Gochi Hand', cursive;
+}
+.tap {
+  color: #380501;
+  font-size: 2em;
+  font-family: 'Gochi Hand', cursive;
+}
+
 }
 
 /* mobile */
@@ -31,8 +51,27 @@ body {
   }
   .container {
     position: relative;
-    margin: 15rem;
+
   }
+
+  .letter {
+    margin: auto;
+    max-width: 800px;
+    min-height: 375px;
+    position: relative;
+    overflow: hidden;
+    display: block;
+ }
+ .king {
+  color: #380501;
+  font-size: 1.6em;
+  font-family: 'Gochi Hand', cursive;
+}
+.tap {
+  color: #380501;
+  font-size: 0.85em;
+  font-family: 'Gochi Hand', cursive;
+}
 }
 
 
@@ -133,11 +172,7 @@ body {
       font-size: 2em;
       font-family: 'Charm', cursive;
    }
-    .king {
-      color: #380501;
-      font-size: 2em;
-      font-family: 'Gochi Hand', cursive;
-   }
+    
     #first {
       max-width: 800px;
       margin: auto;
@@ -164,14 +199,7 @@ body {
       display: none;
    }
    /* TRYING LETTER */
-    .letter {
-      margin: auto;
-      max-width: 800px;
-      min-height: 375px;
-      position: relative;
-      overflow: hidden;
-      display: block;
-   }
+    
     .letter--open .paper {
       animation-name: upthenscale;
       animation-duration: 0.8s;
@@ -220,11 +248,11 @@ body {
       position: relative;
    }
     .envelope {
-      width: 94px;
-      height: 60px;
+      width: 100px;
+      height: 66px;
       background: #f36363;
       position: relative;
-      margin-left:45%;
+      margin-left:40%;
       z-index: 1;
       cursor: pointer;
       border-radius: 3px;
