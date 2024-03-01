@@ -16,7 +16,7 @@ body {
 /* Background for desktop */
 @media only screen and (min-width: 641px) {
   body {
-      background-image: url("/static/assests/web pc.png");
+      background-image: url("/static/assests/web-pc.png");
   }
   .container {
     position: relative;
@@ -27,11 +27,11 @@ body {
 /* Background for mobile */
 @media only screen and (max-width: 640px) {
   body {
-      background-image: url("/static/assests/web dt.png");
+      background-image: url("/static/assests/web-dt.png");
   }
   .container {
     position: relative;
-    margin: 10rem;
+    margin: 15rem;
   }
 }
 

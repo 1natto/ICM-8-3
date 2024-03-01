@@ -12,18 +12,18 @@ def submit():
     return render_template("submit.html")
 
 #-----------------(vugiahung)
-@app.route("/vgh1/", methods=['GET'])
+@app.route("/dmdoMQ==/", methods=['GET'])
 def vgh1():
     return render_template("vgh1.html")
-@app.route("/vgh2/", methods=['GET'])
+@app.route("/dmdoMQ==2/", methods=['GET'])
 def vgh2():
     return render_template("vgh2.html")
 
 #--------------(vuanhminhkhoi)
-@app.route("/namk1/", methods=['GET'])
+@app.route("/bmFtazE=/", methods=['GET'])
 def namk1():
     return render_template("namk1.html")
-@app.route("/namk2/", methods=['GET'])
+@app.route("/bmFtazE=2/", methods=['GET'])
 def namk2():
     return render_template("namk2.html")
 
