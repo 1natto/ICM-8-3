@@ -106,5 +106,15 @@ def tap2():
     return render_template("tap2.html")
 
 
+#--------anchi
+
+@app.route("/YW5jaGkx/", methods=['GET'])
+def anchi1():
+    return render_template("anchi1.html")
+@app.route("/YW5jaGkx2/", methods=['GET'])
+def anchi2():
+    return render_template("anchi2.html")
+
+
 if __name__ == '__main__':
    app.run()
