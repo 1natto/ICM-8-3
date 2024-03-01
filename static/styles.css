@@ -2,19 +2,13 @@
 
 body {
     font-family: 'Romantic', sans-serif;
-    background-color: #212121;
-    
+    background-color: #212121;  
     color: black;
-    /* font-weight: 460; */
     line-height: 1.5;
-    /* margin: 0; */
     display: flex;
-    /* min-height: 100vh; */
     justify-content: center;
-    /* align-items: center; */
-
     background-repeat:no-repeat;
-    /* background-attachment:fixed; */
+    background-attachment:fixed;
     background-size: 100% 100%;
     overflow:hidden;
     image-rendering: crisp-edges;
@@ -58,7 +52,7 @@ i {
     /* may tinh */
 @media only screen and (min-width: 642px) {
     body {
-        background: url("/static/assests/web pc.png");
+        background-image: url("/static/assests/web-pc.png");
     }
     .book {
         width: 450px;
@@ -78,21 +72,38 @@ i {
         margin-left: 5%;
     }
 
+    .button{
+        color: black;
+        position : relative ;
+        display : flex ;
+        justify-content : center ;
+        align-items : center ;
+        width : 280px ;
+        height : 80px ;
+        margin-left: 18%;
+        box-sizing : border-box ;
+        text-decoration : none ;
+        border : solid 3px #000 ;
+        border-radius : 40px ;
+        background : var(--main_color) ;
+        font-family: Georgia, serif, cursive;
+    }
+
 }
 
         /* dien thoai */
 @media only screen and (max-width: 641px) {
     body {
-        background: url("/static/assests/web dt.png");
+        background-image: url("/static/assests/web-dt.png");
     }
 
     .book {
         width: 200px;
         height: 250px;
         position: relative;
-        margin-top: 2.5%;
+        margin-top: 5rem;
         transition: transform 0.5s;
-        margin: 0 auto;
+        margin-left: 14%;
     }
     img {
         width: 160px;
@@ -106,6 +117,24 @@ i {
         justify-content: top;
         margin-left: 3.5%;
     }
+
+    .button{
+        color: black;
+        position : relative ;
+        display : flex ;
+        justify-content : center ;
+        align-items : center ;
+        width : 280px ;
+        height : 80px ;
+        /* margin-left: 10%; */
+        box-sizing : border-box ;
+        text-decoration : none ;
+        border : solid 3px #000 ;
+        border-radius : 40px ;
+        background : var(--main_color) ;
+        font-family: Georgia, serif, cursive;
+    }
+
 
 }
 
@@ -235,22 +264,7 @@ i {
     --border_radius3 : 40px 40px 40px 40px / 48px 48px 30px 30px ;
 }
 
-.button{
-    color: black;
-    position : relative ;
-    display : flex ;
-    justify-content : center ;
-    align-items : center ;
-    width : 280px ;
-    height : 80px ;
-    margin-left: 18%;
-    box-sizing : border-box ;
-    text-decoration : none ;
-    border : solid 3px #000 ;
-    border-radius : 40px ;
-    background : var(--main_color) ;
-    font-family: Georgia, serif, cursive;
-}
+
 .button__wrapper{
     display : flex ;
     justify-content : center ;

@@ -13,7 +13,7 @@ body {
   -ms-interpolation-mode: nearest-neighbor;   /* IE (non-standard property) */
 }
 
-/* Background for desktop */
+/* desktop */
 @media only screen and (min-width: 641px) {
   body {
       background-image: url("/static/assests/web-pc.png");
@@ -24,7 +24,7 @@ body {
   }
 }
 
-/* Background for mobile */
+/* mobile */
 @media only screen and (max-width: 640px) {
   body {
       background-image: url("/static/assests/web-dt.png");

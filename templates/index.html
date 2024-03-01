@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>ICM - ÁNGEL</title>
     <link rel="stylesheet" href="../static/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Nunito:wght@300&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
@@ -16,78 +16,10 @@
     <link href="https://fonts.cdnfonts.com/css/romantic" rel="stylesheet">
 
 </head>
+
 <body>
-
-    <!-- Previous Button -->
-    <button class="btn" id="prev-btn">
-        <i class="fas fa-arrow-circle-left"></i>
-    </button>
-
-    <!-- Book -->
-    <div>
-        <form method="get">
-                <a href="/draft1" id="bin" class="button button--piyo">
-                    <div class="button__wrapper">
-                        <span class="button__text">Next</span>
-                    </div>
-                </a>
-        </form>
-            <div id="book" class="book">
-                <!-- Paper 1 -->
-                <div id="p1" class="paper">
-                    <div class="front">
-                        <div class="front-content">
-                            <h1 id="first" > My Love </h1>
-                        </div>
-                    </div>
-                    <div class="back">
-                        <div id="b1" class="back-content">
-                            <h1> <img src="../static/assests/icm/DSC_0760.jpg" alt=""> </h1>
-                        </div>
-                    </div>
-                </div>
-                <!-- Paper 2 -->
-                <div id="p2" class="paper">
-                    <div class="front">
-                        <div id="b1" class="front-content">
-                            <h1><img src="../static/assests/icm/DSC_0706.jpg"></h1>
-                        </div>
-                    </div>
-                    <div class="back">
-                        <div id="b1" class="back-content">
-                            <h1><img src="../static/assests/icm/DSC_0760.jpg"></h1>
-                        </div>
-                    </div>
-                </div>
-                <!-- Paper 3 -->
-                <div id="p3" class="paper">
-                    <div class="front">
-                        <div id="b1" class="front-content">
-                            <h1><img src="../static/assests/icm/DSC_0941.jpg"></h1>
-                        </div>
-                    </div>
-                    <div class="back">
-                        <div id="b1" class="back-content">
-                            <h1><img src="../static/assests/icm/DSC_0856.jpg"></h1>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
-
-
-
-    <!-- Next Button -->
-    <button class="btn" id="next-btn">
-        <i class="fas fa-arrow-circle-right"></i>
-    </button>
-
-
-    <!-- next page -->
-
-    </div>
+    {% block body %}{% endblock %}
+</body>
 
     <script>
 

@@ -6,10 +6,10 @@ app = Flask(__name__)
 #-----------default ny
 @app.route("/", methods=['GET', 'POST'])
 def index():
-    return render_template("index.html")
+    return render_template("a1.html")
 @app.route("/draft1/", methods=['GET'])
 def submit():
-    return render_template("submit.html")
+    return render_template("a2.html")
 
 #-----------------(vugiahung)
 @app.route("/dmdoMQ==/", methods=['GET'])
@@ -26,6 +26,15 @@ def namk1():
 @app.route("/bmFtazE=2/", methods=['GET'])
 def namk2():
     return render_template("namk2.html")
+
+#---------Trần Nhân Nhật Minh
+
+
+
+
+
+
+
 
 if __name__ == '__main__':
    app.run()
