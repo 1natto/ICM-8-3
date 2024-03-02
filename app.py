@@ -115,6 +115,15 @@ def anchi1():
 def anchi2():
     return render_template("anchi2.html")
 
+#----------hoangthiquynhanh
+
+@app.route("/aHRxYTE=/", methods=['GET'])
+def htqa1():
+    return render_template("htqa1.html")
+@app.route("/aHRxYTE=2/", methods=['GET'])
+def htqa2():
+    return render_template("htqa2.html")
+
 
 if __name__ == '__main__':
    app.run()
