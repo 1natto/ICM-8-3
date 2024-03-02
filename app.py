@@ -124,6 +124,14 @@ def htqa1():
 def htqa2():
     return render_template("htqa2.html")
 
+#-----------tranbinhminh
+@app.route("/dGJtMQo=/", methods=['GET'])
+def tbm1():
+    return render_template("tbm1.html")
+@app.route("/dGJtMQo=2/", methods=['GET'])
+def tbm2():
+    return render_template("tbm2.html")
+
 
 if __name__ == '__main__':
    app.run()
