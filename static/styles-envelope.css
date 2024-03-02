@@ -34,12 +34,16 @@ body {
  .king {
   color: #380501;
   font-size: 2em;
-  font-family: 'Gochi Hand', cursive;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 .tap {
   color: #380501;
-  font-size: 1.20em;
-  font-family: 'Gochi Hand', cursive;
+  font-size: 1.3em;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 
 }
@@ -65,12 +69,16 @@ body {
  .king {
   color: #380501;
   font-size: 1.6em;
-  font-family: 'Great Vibes', cursive;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 .tap {
   color: #380501;
-  font-size: 0.80em;
-  font-family: 'Gochi Hand', cursive;
+  font-size: 0.85em;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 }
 
