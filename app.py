@@ -170,6 +170,16 @@ def ckh1():
 def ckh2():
     return render_template("ckh2.html")
 
+#----------------phamquochung
+@app.route("/cHFoMQ==/", methods=['GET'])
+def pqh1():
+    return render_template("pqh1.html")
+@app.route("/cHFoMg==/", methods=['GET'])
+def pqh2():
+    return render_template("pqh2.html")
+
+
+
 
 
 if __name__ == '__main__':
