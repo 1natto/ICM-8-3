@@ -254,6 +254,12 @@ def lnv302():
     return render_template("lnv302.html")
 
 #31
+@app.route("/cHFoNQ==/", methods=['GET'])
+def pqh5():
+    return render_template("pqh5.html")
+@app.route("/cHFoNQ==2/", methods=['GET'])
+def pqh6():
+    return render_template("pqh6.html")
 
 #32
 @app.route("/bG5tYzMy/", methods=['GET'])
