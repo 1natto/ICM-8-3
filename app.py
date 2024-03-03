@@ -242,5 +242,13 @@ def pnhb40():
 def pnhb402():
     return render_template("pnhb402.html")
 
+#-42
+@app.route("/dHR0bDQy/", methods=['GET'])
+def tttl42():
+    return render_template("tttl42.html")
+@app.route("/dHR0bDQy==/", methods=['GET'])
+def tttl422():
+    return render_template("tttl422.html")
+
 if __name__ == '__main__':
    app.run()
