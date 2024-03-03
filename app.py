@@ -132,6 +132,13 @@ def tbm1():
 def tbm2():
     return render_template("tbm2.html")
 
+#15
+@app.route("/cGts/", methods=['GET'])
+def pkl1():
+    return render_template("pkl1.html")
+@app.route("/cGts2/", methods=['GET'])
+def pkl2():
+    return render_template("pkl2.html")
 
 if __name__ == '__main__':
    app.run()
