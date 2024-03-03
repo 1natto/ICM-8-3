@@ -155,6 +155,13 @@ def kt1():
 @app.route("/a3QyCg==/", methods=['GET'])
 def kt2():
     return render_template("kt2.html")
+#--------------dophamgialinh
+@app.route("/ZHBnbDEK/", methods=['GET'])
+def dpgl1():
+    return render_template("dpgl1.html")
+@app.route("/ZHBnbDIK/", methods=['GET'])
+def dpgl2():
+    return render_template("dpgl2.html")
 
 
 
