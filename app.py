@@ -320,6 +320,14 @@ def nthm1():
 def nthm2():
     return render_template("nthm2.html")
 
+#33
+@app.route("/bG1uCg==/", methods=['GET'])
+def lmn1():
+    return render_template("lmn1.html")
+@app.route("/bG1uCg==2/", methods=['GET'])
+def lmn2():
+    return render_template("lmn2.html")
+
 if __name__ == '__main__':
    app.run()
 
