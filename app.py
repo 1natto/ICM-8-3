@@ -319,6 +319,38 @@ def that1():
 def that2():
     return render_template("that2.html")
 
+#19
+@app.route("/bnRobQo=/", methods=['GET'])
+def nthm1():
+    return render_template("nthm1.html")
+@app.route("/bnRobQo=2/", methods=['GET'])
+def nthm2():
+    return render_template("nthm2.html")
+
+#33
+@app.route("/bG1uCg==/", methods=['GET'])
+def lmn1():
+    return render_template("lmn1.html")
+@app.route("/bG1uCg==2/", methods=['GET'])
+def lmn2():
+    return render_template("lmn2.html")
+
+#35
+@app.route("/bnRoIA==/", methods=['GET'])
+def nth1():
+    return render_template("nth1.html")
+@app.route("/bnRoIA==2/", methods=['GET'])
+def nth2():
+    return render_template("nth2.html")
+
+#39
+@app.route("/Ym1wIA==/", methods=['GET'])
+def bmp1():
+    return render_template("bmp1.html")
+@app.route("/Ym1wIA==2/", methods=['GET'])
+def bmp2():
+    return render_template("bmp2.html")
+
 if __name__ == '__main__':
    app.run()
 
