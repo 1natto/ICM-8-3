@@ -162,6 +162,13 @@ def dpgl1():
 @app.route("/ZHBnbDIK/", methods=['GET'])
 def dpgl2():
     return render_template("dpgl2.html")
+#---------------chiemkiethoa
+@app.route("/Y2toMQo=/", methods=['GET'])
+def ckh1():
+    return render_template("ckh1.html")
+@app.route("/Y2toMgo=/", methods=['GET'])
+def ckh2():
+    return render_template("ckh2.html")
 
 
 
