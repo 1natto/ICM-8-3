@@ -222,6 +222,12 @@ def tntl262():
     return render_template("tntl262.html")
 
 #27
+@app.route("/cHFoMw==/", methods=['GET'])
+def pqh3():
+    return render_template("pqh3.html")
+@app.route("/cHFoMw==2/", methods=['GET'])
+def pqh4():
+    return render_template("pqh4.html")
 
 #28
 @app.route("/bm10Mjg=/", methods=['GET'])
