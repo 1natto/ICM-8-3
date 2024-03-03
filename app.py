@@ -297,12 +297,12 @@ def ntd2():
     return render_template("ntd2.html")
 
 #49
-@app.route("/bnTEkQ/", methods=['GET'])
-def ntd1():
-    return render_template("ntd1.html")
-@app.route("/bnTEkQ==/", methods=['GET'])
-def ntd2():
-    return render_template("ntd2.html")
+@app.route("/Ym7EkQ==/", methods=['GET'])
+def bnd1():
+    return render_template("bnd1.html")
+@app.route("/Ym7EkQ==2/", methods=['GET'])
+def bnd2():
+    return render_template("bnd2.html")
 
 if __name__ == '__main__':
    app.run()
