@@ -251,3 +251,16 @@ def pnhb402():
 
 if __name__ == '__main__':
    app.run()
+
+#13
+@app.route("/bnTEkQ/", methods=['GET'])
+def ntd1():
+    return render_template("ntd1.html")
+@app.route("/bnTEkQ==/", methods=['GET'])
+def ntd2():
+    return render_template("ntd2.html")
+
+if __name__ == '__main__':
+   app.run()
+
+   
