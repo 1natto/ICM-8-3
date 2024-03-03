@@ -328,6 +328,14 @@ def lmn1():
 def lmn2():
     return render_template("lmn2.html")
 
+#35
+@app.route("/bnRoIA==/", methods=['GET'])
+def nth1():
+    return render_template("nth1.html")
+@app.route("/bnRoIA==2/", methods=['GET'])
+def nth2():
+    return render_template("nth2.html")
+
 if __name__ == '__main__':
    app.run()
 
