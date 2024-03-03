@@ -311,7 +311,8 @@ def ta1():
 @app.route("/dHJhbWE=2/", methods=['GET'])
 def ta2():
     return render_template("ta2.html")
-#-----stt21ThaiHoangAnhThu
+
+#21
 @app.route("/dGhhdDE=/", methods=['GET'])
 def that1():
     return render_template("that1.html")
