@@ -336,6 +336,14 @@ def nth1():
 def nth2():
     return render_template("nth2.html")
 
+#39
+@app.route("/Ym1wIA==/", methods=['GET'])
+def bmp1():
+    return render_template("bmp1.html")
+@app.route("/Ym1wIA==2/", methods=['GET'])
+def bmp2():
+    return render_template("bmp2.html")
+
 if __name__ == '__main__':
    app.run()
 
