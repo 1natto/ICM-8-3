@@ -334,14 +334,20 @@ def pnhb402():
     return render_template("pnhb402.html")
 
 #41
+@app.route("/dHR0bDQy/", methods=['GET'])
+def ttl41():
+    return render_template("ttl41.html")
+@app.route("/dHR0bDQy==/", methods=['GET'])
+def ttl412():
+    return render_template("ttl412.html")
 
 #42
 @app.route("/dHR0bDQy/", methods=['GET'])
-def tttl42():
-    return render_template("tttl42.html")
+def ttl42():
+    return render_template("ttl42.html")
 @app.route("/dHR0bDQy==/", methods=['GET'])
-def tttl422():
-    return render_template("tttl422.html")
+def ttl422():
+    return render_template("ttl422.html")
 
 
 #43
