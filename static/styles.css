@@ -52,7 +52,7 @@ i {
     /* may tinh */
 @media only screen and (min-width: 642px) {
     body {
-        background-image: url("/static/assests/web-pc.png");
+        background-image: url("/static/assests/web-pc.webp");
     }
     .book {
         width: 450px;
@@ -94,7 +94,7 @@ i {
         /* dien thoai */
 @media only screen and (max-width: 641px) {
     body {
-        background-image: url("/static/assests/web-dt.png");
+        background-image: url("/static/assests/web-dt.webp");
     }
 
     .book {
