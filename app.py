@@ -250,5 +250,36 @@ def tttl42():
 def tttl422():
     return render_template("tttl422.html")
 
+#-44
+@app.route("/YnQ0NA/", methods=['GET'])
+def bt44():
+    return render_template("bt44.html")
+@app.route("/YnQ0NA==/", methods=['GET'])
+def bt442():
+    return render_template("bt442.html")
+
+#-46
+@app.route("/dnRrYzQ2/", methods=['GET'])
+def vtkc46():
+    return render_template("vtkc46.html")
+@app.route("/dnRrYzQ2==/", methods=['GET'])
+def vtkc462():
+    return render_template("vtkc462.html")
+
+#-48
+@app.route("/bHR0NDg/", methods=['GET'])
+def ltt48():
+    return render_template("ltt48.html")
+@app.route("/bHR0NDg==/", methods=['GET'])
+def ltt482():
+    return render_template("ltt482.html")
+#-50
+@app.route("/aGRkdjUw/", methods=['GET'])
+def hddv50():
+    return render_template("hddv50.html")
+@app.route("/aGRkdjUw==/", methods=['GET'])
+def hddv502():
+    return render_template("hddv502.html")
+
 if __name__ == '__main__':
    app.run()
