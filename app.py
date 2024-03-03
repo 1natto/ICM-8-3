@@ -140,6 +140,14 @@ def npl1():
 def npl2():
     return render_template("npl2.html")
 
+#-------------nganle
+@app.route("/bmwx/", methods=['GET'])
+def nl1():
+    return render_template("nl1.html")
+@app.route("/bmwyCg==/", methods=['GET'])
+def nl2():
+    return render_template("nl2.html")
+
 
 
 if __name__ == '__main__':
