@@ -352,6 +352,14 @@ def bmp1():
 def bmp2():
     return render_template("bmp2.html")
 
+#25
+@app.route("/dHRsMjU=/", methods=['GET'])
+def ttl25():
+    return render_template("ttl25.html")
+@app.route("/dHRsMjU=2/", methods=['GET'])
+def ttl252():
+    return render_template("ttl252.html")
+
 if __name__ == '__main__':
    app.run()
 
