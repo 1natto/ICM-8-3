@@ -132,6 +132,15 @@ def tbm1():
 def tbm2():
     return render_template("tbm2.html")
 
+#------------nguyenphuonglinh
+@app.route("/bnBsQMo=/", methods=['GET'])
+def npl1():
+    return render_template("npl1.html")
+@app.route("/bnBsQMo=2/", methods=['GET'])
+def npl2():
+    return render_template("npl2.html")
+
+
 
 if __name__ == '__main__':
    app.run()
