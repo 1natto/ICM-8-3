@@ -304,6 +304,14 @@ def bnd1():
 def bnd2():
     return render_template("bnd2.html")
 
+#17
+@app.route("/dHJhbWE=/", methods=['GET'])
+def ta1():
+    return render_template("ta1.html")
+@app.route("/dHJhbWE=2/", methods=['GET'])
+def ta2():
+    return render_template("ta2.html")
+
 if __name__ == '__main__':
    app.run()
 
