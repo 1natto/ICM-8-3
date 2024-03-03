@@ -148,6 +148,14 @@ def nl1():
 def nl2():
     return render_template("nl2.html")
 
+#-------------kieutu
+@app.route("/a3QxCg==/", methods=['GET'])
+def kt1():
+    return render_template("kt1.html")
+@app.route("/a3QyCg==/", methods=['GET'])
+def kt2():
+    return render_template("kt2.html")
+
 
 
 if __name__ == '__main__':
