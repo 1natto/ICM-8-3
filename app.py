@@ -312,6 +312,14 @@ def ta1():
 def ta2():
     return render_template("ta2.html")
 
+#19
+@app.route("/bnRobQo=/", methods=['GET'])
+def nthm1():
+    return render_template("nthm1.html")
+@app.route("/bnRobQo=2/", methods=['GET'])
+def nthm2():
+    return render_template("nthm2.html")
+
 if __name__ == '__main__':
    app.run()
 
