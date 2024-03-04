@@ -16,7 +16,7 @@ body {
 /* desktop */
 @media only screen and (min-width: 641px) {
   body {
-      background-image: url("/static/assests/web-pc.webp");
+      background-image: url("/static/assets/web-pc.png");
   }
   .container {
     position: relative;
@@ -51,7 +51,7 @@ body {
 /* mobile */
 @media only screen and (max-width: 640px) {
   body {
-      background-image: url("/static/assests/web-dt.webp");
+      background-image: url("/static/assets/web-dt.png");
   }
   .container {
     position: relative;
