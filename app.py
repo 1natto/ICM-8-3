@@ -368,6 +368,12 @@ def bt442():
     return render_template("bt442.html")
 
 #45
+@app.route("/dHJ0cg==/", methods=['GET'])
+def trtr1():
+    return render_template("trtr1.html")
+@app.route("/dHJ0cg==2/", methods=['GET'])
+def trtr2():
+    return render_template("trtr2.html")
 
 #46
 @app.route("/dnRrYzQ2/", methods=['GET'])
