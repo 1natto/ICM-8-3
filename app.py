@@ -378,6 +378,12 @@ def vtkc462():
     return render_template("vtkc462.html")
 
 #47
+@app.route("/6C74743437/", methods=['GET'])
+def ltt47():
+    return render_template("ltt47.html")
+@app.route("/6C74743437==/", methods=['GET'])
+def ltt472():
+    return render_template("ltt472.html")
 
 #48
 @app.route("/bHR0NDg/", methods=['GET'])
@@ -402,6 +408,14 @@ def hddv50():
 @app.route("/aGRkdjUw==/", methods=['GET'])
 def hddv502():
     return render_template("hddv502.html")
+
+#51
+@app.route("/746E6E6D3531/", methods=['GET'])
+def tnnm51():
+    return render_template("tnnm51.html")
+@app.route("/746E6E6D3531==/", methods=['GET'])
+def tnnm512():
+    return render_template("tnnm512.html")
 
 if __name__ == '__main__':
    app.run()
