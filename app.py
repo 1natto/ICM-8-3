@@ -487,6 +487,37 @@ def mt59():
 def mt592():
     return render_template("mt592.html")
 
+#60
+@app.route("/cFF2/", methods=['GET'])
+def pqv1():
+    return render_template("pqv1.html")
+@app.route("/cFF22/", methods=['GET'])
+def pqv2():
+    return render_template("pqv2.html")
+
+
+#61
+
+
+#62
+
+
+#63
+
+
+#64
+
+
+#65
+
+
+#66
+
+
+#67
+
+
+
 if __name__ == '__main__':
    app.run()
 
