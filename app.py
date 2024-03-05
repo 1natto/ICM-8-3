@@ -417,6 +417,70 @@ def tnnm51():
 def tnnm512():
     return render_template("tnnm512.html")
 
+#52
+@app.route("/746E6E6D3532/", methods=['GET'])
+def tnnm52():
+    return render_template("tnnm52.html")
+@app.route("/746E6E6D3532==/", methods=['GET'])
+def tnnm522():
+    return render_template("tnnm522.html")
+
+#53
+@app.route("/746E6E6D3533/", methods=['GET'])
+def tnnm53():
+    return render_template("tnnm53.html")
+@app.route("/746E6E6D3533==/", methods=['GET'])
+def tnnm532():
+    return render_template("tnnm532.html")
+
+#54
+@app.route("/746E6E6D3534/", methods=['GET'])
+def tnnm54():
+    return render_template("tnnm54.html")
+@app.route("/746E6E6D3534==/", methods=['GET'])
+def tnnm542():
+    return render_template("tnnm542.html")
+
+#55
+@app.route("/7074743535/", methods=['GET'])
+def ptt55():
+    return render_template("ptt55.html")
+@app.route("/7074743535==/", methods=['GET'])
+def ptt552():
+    return render_template("ptt552.html")
+
+#56
+@app.route("/6E6E643536/", methods=['GET'])
+def nnd56():
+    return render_template("nnd56.html")
+@app.route("/6E6E643536==/", methods=['GET'])
+def nnd562():
+    return render_template("nnd562.html")
+
+#57
+@app.route("/7474613537==/", methods=['GET'])
+def tta57():
+    return render_template("tta57.html")
+@app.route("/7474613537/", methods=['GET'])
+def tta572():
+    return render_template("tta572.html")
+
+#58
+@app.route("/7074686E3538/", methods=['GET'])
+def pthn58():
+    return render_template("pthn58.html")
+@app.route("/7074686E3538==/", methods=['GET'])
+def pthn582():
+    return render_template("pthn582.html")
+
+#59
+@app.route("/6D743539/", methods=['GET'])
+def mt59():
+    return render_template("mt59.html")
+@app.route("/6D743539==/", methods=['GET'])
+def mt592():
+    return render_template("mt592.html")
+
 if __name__ == '__main__':
    app.run()
 
