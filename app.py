@@ -495,27 +495,25 @@ def pqv1():
 def pqv2():
     return render_template("pqv2.html")
 
-
 #61
-
+@app.route("/dkhn/", methods=['GET'])
+def vhg1():
+    return render_template("vhg1.html")
+@app.route("/dkhn2/", methods=['GET'])
+def vhg2():
+    return render_template("vhg2.html")
 
 #62
 
-
 #63
-
 
 #64
 
-
 #65
-
 
 #66
 
-
 #67
-
 
 
 if __name__ == '__main__':
