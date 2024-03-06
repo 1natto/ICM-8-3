@@ -532,7 +532,7 @@ def ttl65():
     return render_template("ttl65.html")
 @app.route("/65-/", methods=['GET'])
 def ttl652():
-    return render_template("ttl65.html")
+    return render_template("ttl652.html")
 
 #66
 @app.route("/66/", methods=['GET'])
