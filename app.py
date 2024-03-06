@@ -503,17 +503,60 @@ def vhg2():
     return render_template("vhg2.html")
 
 #62
+@app.route("/62/", methods=['GET'])
+def ttl62():
+    return render_template("ttl62.html")
+@app.route("/62/", methods=['GET'])
+def ttl622():
+    return render_template("ttl622.html")
 
 #63
+@app.route("/63/", methods=['GET'])
+def dhqh():
+    return render_template("dhqh.html")
+@app.route("/63/", methods=['GET'])
+def dhqh2():
+    return render_template("dhqh2.html")
 
 #64
+@app.route("/64/", methods=['GET'])
+def nmh():
+    return render_template("nmh.html")
+@app.route("/64/", methods=['GET'])
+def nmh2():
+    return render_template("nmh2.html")
 
 #65
+@app.route("/65/", methods=['GET'])
+def ttl65():
+    return render_template("ttl65.html")
+@app.route("/65/", methods=['GET'])
+def ttl652():
+    return render_template("ttl65.html")
 
 #66
+@app.route("/66/", methods=['GET'])
+def td():
+    return render_template("td.html")
+@app.route("/66/", methods=['GET'])
+def td2():
+    return render_template("td2.html")
 
 #67
+@app.route("/67/", methods=['GET'])
+def dtm():
+    return render_template("dtm.html")
+@app.route("/67/", methods=['GET'])
+def dtm2():
+    return render_template("dtm2.html")
 
+#68
+@app.route("/68/", methods=['GET'])
+def td3():
+    return render_template("td3.html")
+@app.route("/68/", methods=['GET'])
+def td4():
+    return render_template("td4.html")
 
 if __name__ == '__main__':
    app.run()
