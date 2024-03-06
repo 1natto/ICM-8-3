@@ -1,0 +1,22 @@
+{% extends "layout.html" %} {% block body %}
+
+<p class="not-yet endText"></p>
+<div class="one now">
+  <div class="letter now">
+    <div class="envelope" onclick="envelopeOpen();">
+      <div class="envelope-flap"></div>
+      <div class="envelope-paper"></div>
+      <div class="envelope-detail"></div>
+    </div>
+    <div class="paper">
+      <div class="paper-close king" onclick="paperClose();">X</div>
+      <p class="king txt">
+        <br/>"Chúc bà nội có ngày 8/3 vui vẻ, mãi nhiều tiền, nhiều sức khỏe và xinh đẹp ạaaaa
+        <br>Iuuuuu 🥰
+        <br>Nhím"
+      </p>
+    </div>
+  </div>
+</div>
+
+{% endblock %}
