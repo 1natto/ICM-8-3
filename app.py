@@ -358,7 +358,6 @@ def hntv1():
 def hntv2():
     return render_template("hntv2.html")
 
-
 #44
 @app.route("/YnQ0NA/", methods=['GET'])
 def bt44():
