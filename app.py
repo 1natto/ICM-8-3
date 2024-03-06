@@ -506,7 +506,7 @@ def vhg2():
 @app.route("/62/", methods=['GET'])
 def ttl62():
     return render_template("ttl62.html")
-@app.route("/62/", methods=['GET'])
+@app.route("/62-/", methods=['GET'])
 def ttl622():
     return render_template("ttl622.html")
 
@@ -514,7 +514,7 @@ def ttl622():
 @app.route("/63/", methods=['GET'])
 def dhqh():
     return render_template("dhqh.html")
-@app.route("/63/", methods=['GET'])
+@app.route("/63-/", methods=['GET'])
 def dhqh2():
     return render_template("dhqh2.html")
 
@@ -522,7 +522,7 @@ def dhqh2():
 @app.route("/64/", methods=['GET'])
 def nmh():
     return render_template("nmh.html")
-@app.route("/64/", methods=['GET'])
+@app.route("/64-/", methods=['GET'])
 def nmh2():
     return render_template("nmh2.html")
 
@@ -530,7 +530,7 @@ def nmh2():
 @app.route("/65/", methods=['GET'])
 def ttl65():
     return render_template("ttl65.html")
-@app.route("/65/", methods=['GET'])
+@app.route("/65-/", methods=['GET'])
 def ttl652():
     return render_template("ttl65.html")
 
@@ -538,7 +538,7 @@ def ttl652():
 @app.route("/66/", methods=['GET'])
 def td():
     return render_template("td.html")
-@app.route("/66/", methods=['GET'])
+@app.route("/66-/", methods=['GET'])
 def td2():
     return render_template("td2.html")
 
@@ -546,7 +546,7 @@ def td2():
 @app.route("/67/", methods=['GET'])
 def dtm():
     return render_template("dtm.html")
-@app.route("/67/", methods=['GET'])
+@app.route("/67-/", methods=['GET'])
 def dtm2():
     return render_template("dtm2.html")
 
@@ -554,7 +554,7 @@ def dtm2():
 @app.route("/68/", methods=['GET'])
 def td3():
     return render_template("td3.html")
-@app.route("/68/", methods=['GET'])
+@app.route("/68-/", methods=['GET'])
 def td4():
     return render_template("td4.html")
 
