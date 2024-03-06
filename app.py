@@ -218,7 +218,7 @@ def ttl252():
 def tntl26():
     return render_template("tntl26.html")
 @app.route("/dG50bDI2Mg==/", methods=['GET'])
-def tntl262():
+def tntl262(): 
     return render_template("tntl262.html")
 
 #27
