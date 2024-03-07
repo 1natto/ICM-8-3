@@ -278,10 +278,10 @@ def lmn2():
     return render_template("lmn2.html")
 
 #34
-@app.route("/Y2hiaDM0/", methods=['GET'])
+@app.route("/Y2hiaDI0Mg==/", methods=['GET'])
 def chbh34():
     return render_template("chbh34.html")
-@app.route("/Y2hiaDI0Mg==/", methods=['GET'])
+@app.route("/Y2hiaDM0/", methods=['GET'])
 def chbh342():
     return render_template("chbh342.html")
 
