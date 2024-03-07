@@ -543,10 +543,10 @@ def td2():
     return render_template("td2.html")
 
 #67
-@app.route("/67/", methods=['GET'])
+@app.route("/67-/", methods=['GET'])
 def dtm():
     return render_template("dtm.html")
-@app.route("/67-/", methods=['GET'])
+@app.route("/67/", methods=['GET'])
 def dtm2():
     return render_template("dtm2.html")
 
