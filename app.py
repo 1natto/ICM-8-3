@@ -286,10 +286,10 @@ def chbh342():
     return render_template("chbh342.html")
 
 #35
-@app.route("/bnRoIA==/", methods=['GET'])
+@app.route("/bnRoIA==2/", methods=['GET'])
 def nth1():
     return render_template("nth1.html")
-@app.route("/bnRoIA==2/", methods=['GET'])
+@app.route("/bnRoIA==/", methods=['GET'])
 def nth2():
     return render_template("nth2.html")
 
