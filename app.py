@@ -302,10 +302,10 @@ def tnpl362():
     return render_template("tnpl362.html")
 
 #37
-@app.route("/dnRrYw==/", methods=['GET'])
+@app.route("/dnRrYw==2/", methods=['GET'])
 def vtkc1():
     return render_template("vtkc1.html")
-@app.route("/dnRrYw==2/", methods=['GET'])
+@app.route("/dnRrYw==/", methods=['GET'])
 def vtkc2():
     return render_template("vtkc2.html")
 
