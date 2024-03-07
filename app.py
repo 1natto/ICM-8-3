@@ -310,10 +310,10 @@ def vtkc2():
     return render_template("vtkc2.html")
 
 #38
-@app.route("/dmJoMzg===/", methods=['GET'])
+@app.route("/dmJoMzg=/", methods=['GET'])
 def vbh38():
     return render_template("vbh38.html")
-@app.route("/dmJoMzg=/", methods=['GET'])
+@app.route("/dmJoMzg===/", methods=['GET'])
 def vbh382():
     return render_template("vbh382.html")
 
