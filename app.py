@@ -353,7 +353,7 @@ def ttl422():
 #43
 @app.route("/aG50dg==/", methods=['GET'])
 def hntv1():
-    return render_template("hntv.html")
+    return render_template("hntv1.html")
 @app.route("/aG50dg==2/", methods=['GET'])
 def hntv2():
     return render_template("hntv2.html")
