@@ -1,0 +1,76 @@
+{% extends "index.html" %}
+
+{% block body %}
+
+<!-- Previous Button -->
+<button class="btn" id="prev-btn">
+    <i class="fas fa-arrow-circle-left"></i>
+</button>
+
+<!-- Book -->
+<div>
+    <form method="get">
+            <a href="/draft1" id="bin" class="button button--piyo">
+                <div class="button__wrapper">
+                    <span class="button__text">Next</span>
+                </div>
+            </a>
+    </form>
+        <div id="book" class="book">
+            <!-- Paper 1 -->
+            <div id="p1" class="paper">
+                <div class="front">
+                    <div class="front-content">
+                        <h1 id="first" > My Love </h1>
+                    </div>
+                </div>
+                <div class="back">
+                    <div id="b1" class="back-content">
+                        <h1> <img src="../static\assets\khachhang\pdna\daughter'\z5230001633614_6e0391ac91401f94d99b712f9c0dbc24.jpg" alt=""> </h1>
+                    </div>
+                </div>
+            </div>
+            <!-- Paper 2 -->
+            <div id="p2" class="paper">
+                <div class="front">
+                    <div id="b1" class="front-content">
+                        <h1><img src="../static\assets\khachhang\pdna\daughter'\z5230001627071_6532c96483b125884d3955dca93641d7.jpg"></h1>
+                    </div>
+                </div>
+                <div class="back">
+                    <div id="b1" class="back-content">
+                        <h1><img src="../static\assets\khachhang\pdna\daughter'\z5230001630367_c23ea6d1ec96f570cd2df69d431e775b.jpg"></h1>
+                    </div>
+                </div>
+            </div>
+            <!-- Paper 3 -->
+            <div id="p3" class="paper">
+                <div class="front">
+                    <div id="b1" class="front-content">
+                        <h1><img src="../static\assets\khachhang\pdna\daughter'\z5230001631387_2c430d0d251a5736f689bcc277d711d4.jpg"></h1>
+                    </div>
+                </div>
+                <div class="back">
+                    <div id="b1" class="back-content">
+                        <h1><img src="../static\assets\khachhang\pdna\daughter'\z5230005391492_f952fe6802dbded05b96f26f754c14a0.jpg"></h1>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+<!-- Next Button -->
+<button class="btn" id="next-btn">
+    <i class="fas fa-arrow-circle-right"></i>
+</button>
+
+
+<!-- next page -->
+
+</div>
+
+{% endblock %}

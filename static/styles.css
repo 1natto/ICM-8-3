@@ -20,10 +20,16 @@ body {
 
 #pdna {
     margin-top: 70%;
+    font-family: "Pacifico", cursive;
 }
 
    /* flipbook */
 
+
+
+.btn-1 {
+    font-family: "Pacifico", cursive;
+}
 /* Button */
 .btn {
     position: relative;
