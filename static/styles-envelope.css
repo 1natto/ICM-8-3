@@ -45,6 +45,20 @@ body {
   font-weight: 400;
   font-style: normal;
 }
+.tapsmall{
+  color: #380501;
+  font-size: 1.15em;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.tapmedium{
+  color: #380501;
+  font-size: 1.48em;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
 
 }
 
@@ -76,6 +90,14 @@ body {
 .tap {
   color: #380501;
   font-size: 0.85em;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.tapsmall{
+  color: #380501;
+  font-size: 0.75em;
   font-family: "Pacifico", cursive;
   font-weight: 400;
   font-style: normal;

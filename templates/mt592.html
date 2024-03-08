@@ -1,0 +1,21 @@
+{% extends "layout.html" %} {% block body %}
+
+<p class="not-yet endText"></p>
+<div class="one now">
+  <div class="letter now">
+    <div class="envelope" onclick="envelopeOpen();">
+      <div class="envelope-flap"></div>
+      <div class="envelope-paper"></div>
+      <div class="envelope-detail"></div>
+    </div>
+    <div class="paper">
+      <div class="paper-close king" onclick="paperClose();">X</div>
+      <p class="king txt">
+        <br/>Chúc mẹ yêu của con sẽ có một ngày 8/3 thật vui vẻ, mãi luôn xinh đẹp và có thật nhiều sức khoẻ. Đặt biệt là sẽ luôn có nhiều tiền
+        <br>Love you mom 💗
+      </p>
+    </div>
+  </div>
+</div>
+
+{% endblock %}
