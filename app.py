@@ -345,7 +345,7 @@ def ttl412():
 @app.route("/dHR0bDQy/", methods=['GET'])
 def ttl42():
     return render_template("ttl42.html")
-@app.route("/42-/", methods=['GET'])
+@app.route("/dHR0bDQy==/", methods=['GET'])
 def ttl422():
     return render_template("ttl422.html")
 
@@ -353,7 +353,7 @@ def ttl422():
 #43
 @app.route("/aG50dg==/", methods=['GET'])
 def hntv1():
-    return render_template("hntv1.html")
+    return render_template("hntv.html")
 @app.route("/aG50dg==2/", methods=['GET'])
 def hntv2():
     return render_template("hntv2.html")
@@ -367,13 +367,7 @@ def bt44():
 def bt442():
     return render_template("bt442.html")
 
-#45 
-@app.route("/74743435/", methods=['GET'])
-def tt45():
-    return render_template("tt45.html")
-@app.route("/74743435==/", methods=['GET'])
-def tt452():
-    return render_template("tt452.html")
+#45
 
 #46
 @app.route("/dnRrYzQ2/", methods=['GET'])
@@ -383,13 +377,7 @@ def vtkc46():
 def vtkc462():
     return render_template("vtkc462.html")
 
-#47 
-@app.route("/6C74743437/", methods=['GET'])
-def ltt47():
-    return render_template("ltt47.html")
-@app.route("/6C74743437==/", methods=['GET'])
-def ltt472():
-    return render_template("ltt472.html")
+#47
 
 #48
 @app.route("/bHR0NDg/", methods=['GET'])
@@ -562,6 +550,8 @@ def td4():
 
 #pdna
 
+
+
 #+mevo
 @app.route("/bWV2bzE=/", methods=['GET'])
 def mevo():
@@ -572,13 +562,22 @@ def mevo2():
 
 #hht
 
-#+mevo
 @app.route("/bW9tMQ==/", methods=['GET'])
 def mom():
     return render_template("mom1.html")
 @app.route("/bW9tMQ==1/", methods=['GET'])
 def mom2():
     return render_template("mom2.html")
+
+
+#cochau
+
+@app.route("/Y29jaGF1MQ==/", methods=['GET'])
+def cochau():
+    return render_template("cochau1.html")
+@app.route("/Y29jaGF1MQ==1/", methods=['GET'])
+def cochau2():
+    return render_template("cochau2.html")
 
 
 if __name__ == '__main__':
