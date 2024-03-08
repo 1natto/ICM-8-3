@@ -19,17 +19,18 @@ body {
 }
 
 #pdna {
-    margin-top: 70%;
+    margin-top: 95%;
     font-family: "Pacifico", cursive;
 }
 
    /* flipbook */
 
 
-
 .btn-1 {
     font-family: "Pacifico", cursive;
+    margin-top:100%;
 }
+
 /* Button */
 .btn {
     position: relative;
@@ -58,7 +59,7 @@ i {
 
 
     /* may tinh */
-@media only screen and (min-width: 642px) {
+@media only screen and (min-width: 690px) {
     body {
         background-image: url("/static/assets/web-pc.png");
     }
@@ -96,11 +97,17 @@ i {
         background : var(--main_color) ;
         font-family: Georgia, serif, cursive;
     }
+    #bruh {
+        text-align:center;
+        margin-left:auto;
+        margin-right:auto;
+    
+      }
 
 }
 
         /* dien thoai */
-@media only screen and (max-width: 641px) {
+@media only screen and (max-width: 689px) {
     body {
         background-image: url("/static/assets/web-dt.png");
     }
@@ -142,6 +149,11 @@ i {
         background : var(--main_color) ;
         font-family: Georgia, serif, cursive;
     }
+    #bruh {
+        text-align:center;
+        margin-left:auto;
+        margin-right:auto;
+      }
 
 
 }
@@ -314,10 +326,10 @@ i {
     display: inline-block;
     transition: all .2s;
     position: relative;
-    padding: 3% 5%;
+    padding: 4% 6%;
     top: 0;
     cursor: pointer;
-    margin:1rem 1rem;
+    margin:-20rem 1rem;
     border: none;
 }
 
