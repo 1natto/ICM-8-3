@@ -403,6 +403,19 @@ def hddv50():
 def hddv502():
     return render_template("hddv502.html")
 
+
+#pdna
+
+#+mevo
+
+
+
 if __name__ == '__main__':
    app.run()
 
+@app.route("/bWV2bzE=/", methods=['GET'])
+def mevo():
+    return render_template("mevo1.html")
+@app.route("/bWV2bzE=1/", methods=['GET'])
+def mevo2():
+    return render_template("mevo2.html")
