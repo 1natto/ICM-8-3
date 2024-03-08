@@ -368,6 +368,12 @@ def bt442():
     return render_template("bt442.html")
 
 #45
+@app.route("/74743435/", methods=['GET'])
+def tt45():
+    return render_template("tt45.html")
+@app.route("/74743435==/", methods=['GET'])
+def tt452():
+    return render_template("tt452.html")
 
 #46
 @app.route("/dnRrYzQ2/", methods=['GET'])
@@ -378,6 +384,12 @@ def vtkc462():
     return render_template("vtkc462.html")
 
 #47
+@app.route("/6C74743437/", methods=['GET'])
+def ltt47():
+    return render_template("ltt47.html")
+@app.route("/6C74743437==/", methods=['GET'])
+def ltt472():
+    return render_template("ltt472.html")
 
 #48
 @app.route("/bHR0NDg/", methods=['GET'])
