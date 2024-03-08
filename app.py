@@ -580,6 +580,25 @@ def cochau2():
     return render_template("cochau2.html")
 
 
+#pdna
+
+@app.route("/cGRuYTE=/", methods=['GET'])
+def pdna():
+    return render_template("pdna1.html")
+@app.route("/cGRuYTE=1/", methods=['GET'])
+def pdna2():
+    return render_template("pdna2.html")
+@app.route("/cGRuYTE=2/", methods=['GET'])
+def pdna3():
+    return render_template("pdna3.html")
+@app.route("/cGRuYTE=3/", methods=['GET'])
+def pdna4():
+    return render_template("pdna4.html")
+@app.route("/cGRuYTE=4/", methods=['GET'])
+def pdna5():
+    return render_template("pdna5.html")
+\
+
 if __name__ == '__main__':
    app.run()
 

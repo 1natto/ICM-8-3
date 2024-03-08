@@ -18,7 +18,9 @@ body {
     -ms-interpolation-mode: nearest-neighbor;   /* IE (non-standard property) */
 }
 
-
+#pdna {
+    margin-top: 70%;
+}
 
    /* flipbook */
 
@@ -296,3 +298,45 @@ i {
     align-items : center ;
     background : #FFF ;
 }
+
+
+.btn-1 {
+    background: #d7e593;
+    color: #246b56;
+    border-radius: 7%;
+    box-shadow: 0 0.7vh 0rem #a6b072;
+    display: inline-block;
+    transition: all .2s;
+    position: relative;
+    padding: 3% 5%;
+    top: 0;
+    cursor: pointer;
+    margin:1rem 1rem;
+    border: none;
+}
+
+
+.btn-1:active {
+    top: 6%;
+    box-shadow: 0 0.1vh 0rem #a6b072;
+    transition: all .2s;
+}
+.rotate{
+animation: rotating 3s linear infinite;
+}
+
+
+
+#anh1 {
+  position:fixed;
+  border:0px;
+  margin-top:15%;
+  margin-left:-34%;
+}
+#anh2 {
+  position:fixed;
+  border:0px;
+  margin-top:15%;
+  margin-left:-85%;
+}
+

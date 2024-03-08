@@ -2,75 +2,59 @@
 
 {% block body %}
 
-<!-- Previous Button -->
-<button class="btn" id="prev-btn">
-    <i class="fas fa-arrow-circle-left"></i>
-</button>
-
-<!-- Book -->
-<div>
-    <form method="get">
-            <a href="/draft1" id="bin" class="button button--piyo">
-                <div class="button__wrapper">
-                    <span class="button__text">Next</span>
-                </div>
-            </a>
+<body >
+    <form method="get" action="/cGRuYTE=1/">
+      <div id="pdna">
+        <span>
+          <h1>
+            Yêu anh không?
+          </h1>
+        </span>
+      </div>
+      <br>
+      <div>
+        <p class="btn-1" id="btn-2" href="/cGRuYTE=1" onmouseover="mouseOver()"> Co</p>
+          <button class="btn-1" id="btn-2"> Có</button>
+          <p class="btn-1" id="btn-2" onclick="mouseOver()" onmouseover="mouseOver()"> Không</p>
+      </div>
     </form>
-        <div id="book" class="book">
-            <!-- Paper 1 -->
-            <div id="p1" class="paper">
-                <div class="front">
-                    <div class="front-content">
-                        <h1 id="first" > My Love </h1>
-                    </div>
-                </div>
-                <div class="back">
-                    <div id="b1" class="back-content">
-                        <h1> <img src="../static/assets/icm/DSC_0760.jpg" alt=""> </h1>
-                    </div>
-                </div>
-            </div>
-            <!-- Paper 2 -->
-            <div id="p2" class="paper">
-                <div class="front">
-                    <div id="b1" class="front-content">
-                        <h1><img src="../static/assets/icm/DSC_0706.jpg"></h1>
-                    </div>
-                </div>
-                <div class="back">
-                    <div id="b1" class="back-content">
-                        <h1><img src="../static/assets/icm/DSC_0760.jpg"></h1>
-                    </div>
-                </div>
-            </div>
-            <!-- Paper 3 -->
-            <div id="p3" class="paper">
-                <div class="front">
-                    <div id="b1" class="front-content">
-                        <h1><img src="../static/assets/icm/DSC_0941.jpg"></h1>
-                    </div>
-                </div>
-                <div class="back">
-                    <div id="b1" class="back-content">
-                        <h1><img src="../static/assets/icm/DSC_0856.jpg"></h1>
-                    </div>
-                </div>
-            </div>
+    <div>
+      <!-- <img src="https://i2.wp.com/lucloi.vn/wp-content/uploads/2020/08/71f20ba332b9f1dc10467c2c4c9fc111.jpg?w=480&ssl=1" class="rotate hidden-xs"  id="anh1" width="350" height="350" hidden/>
+      <img src="https://i2.wp.com/lucloi.vn/wp-content/uploads/2020/08/71f20ba332b9f1dc10467c2c4c9fc111.jpg?w=480&ssl=1" class="rotate hidden-xs" id="anh2" width="350" height="350" hidden/> -->
 
-        </div>
     </div>
+  </body>
 
 
+  <script>
+      function detectMob() {
+          return ( ( window.innerWidth <= 1200 ) && ( window.innerHeight <= 2550 ) );
+      }
+      var count = false;
+      let mbcheck = detectMob();
+      function mouseOver(){
+          // if (count == false && detectMob() == false) {
+          //   var myImage = document.querySelector('#anh1');
+          //   myImage.removeAttribute("hidden");
+          //   var myImage = document.querySelector('#anh2');
+          //   myImage.removeAttribute("hidden");
+          //   count = true;
+          // }
+
+          if (detectMob() == false) {
+              $('#btn-2').animate({
+              'top' : Math.round(Math.random() * (50 - 20 + 1)) + 20 + "vh",
+              'left': Math.round(Math.random() * (30 - 15 + 1)) + 15 + "vh"
+            }, "fast");
+          }
+          else if (detectMob() == true) {
+            $('#btn-2').animate({
+              'top' : Math.round(Math.random() * (32 - 22 + 1)) + 22 + "vh",
+              'left': Math.round(Math.random() * (23 - 12 + 1)) + 12 + "vh"
+            }, "fast");
+          }
 
 
-<!-- Next Button -->
-<button class="btn" id="next-btn">
-    <i class="fas fa-arrow-circle-right"></i>
-</button>
-
-
-<!-- next page -->
-
-</div>
-
+        }
+  </script>
 {% endblock %}
