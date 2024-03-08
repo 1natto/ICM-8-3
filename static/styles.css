@@ -59,7 +59,7 @@ i {
 
 
     /* may tinh */
-@media only screen and (min-width: 642px) {
+@media only screen and (min-width: 690px) {
     body {
         background-image: url("/static/assets/web-pc.png");
     }
@@ -107,7 +107,7 @@ i {
 }
 
         /* dien thoai */
-@media only screen and (max-width: 641px) {
+@media only screen and (max-width: 689px) {
     body {
         background-image: url("/static/assets/web-dt.png");
     }
