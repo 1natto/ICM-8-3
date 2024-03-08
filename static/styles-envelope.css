@@ -38,6 +38,13 @@ body {
   font-weight: 400;
   font-style: normal;
 }
+.hht {
+  color: #380501;
+  font-size: 1.7em;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
 .tap {
   color: #380501;
   font-size: 1.3em;
@@ -83,6 +90,13 @@ body {
  .king {
   color: #380501;
   font-size: 1.3em;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.hht {
+  color: #380501;
+  font-size: 1.1em;
   font-family: "Pacifico", cursive;
   font-weight: 400;
   font-style: normal;
