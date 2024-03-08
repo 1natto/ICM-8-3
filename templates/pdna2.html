@@ -1,20 +1,29 @@
 {% extends "index.html" %}
 
+<script>
+    
+</script>
+
 {% block body %}
 
+
 <body >
-    <form method="get" action="/cGRuYTE=2/">
+    <form id="bruh" method="get" action="/cGRuYTE=2/">
       <div id="pdna">
         <span>
-          <h1 >
+          <h1 id="pdna">
             Em có răm không?
           </h1>
         </span>
       </div>
       <br>
-      <div>
-          <button class="btn-1" id="btn-1"> Có</button>
-          <p class="btn-1" id="btn-2" onclick="mouseOver()" onmouseover="mouseOver()"> Không</p>
+      <div id="bruh">
+
+        <a href="/cGRuYTE=2">
+          <p class="btn-1"> Có</p>
+        </a>
+        
+        <p class="btn-1" id="btn-2" onclick="mouseOver()" onmouseover="mouseOver()"> Không</p>
       </div>
     </form>
     <div>
@@ -26,34 +35,6 @@
 
 
   <script>
-      function detectMob() {
-          return ( ( window.innerWidth <= 1200 ) && ( window.innerHeight <= 2550 ) );
-      }
-      var count = false;
-      let mbcheck = detectMob();
-      function mouseOver(){
-          // if (count == false && detectMob() == false) {
-          //   var myImage = document.querySelector('#anh1');
-          //   myImage.removeAttribute("hidden");
-          //   var myImage = document.querySelector('#anh2');
-          //   myImage.removeAttribute("hidden");
-          //   count = true;
-          // }
-
-          if (detectMob() == false) {
-              $('#btn-2').animate({
-              'top' : Math.round(Math.random() * (50 - 20 + 1)) + 20 + "vh",
-              'left': Math.round(Math.random() * (30 - 15 + 1)) + 15 + "vh"
-            }, "fast");
-          }
-          else if (detectMob() == true) {
-            $('#btn-2').animate({
-              'top' : Math.round(Math.random() * (32 - 22 + 1)) + 22 + "vh",
-              'left': Math.round(Math.random() * (23 - 12 + 1)) + 12 + "vh"
-            }, "fast");
-          }
-
-
-        }
+      
   </script>
 {% endblock %}
