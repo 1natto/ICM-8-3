@@ -570,6 +570,16 @@ def mevo():
 def mevo2():
     return render_template("mevo2.html")
 
+#hht
+
+#+mevo
+@app.route("/bW9tMQ==/", methods=['GET'])
+def mom():
+    return render_template("mom1.html")
+@app.route("/bW9tMQ==1/", methods=['GET'])
+def mom2():
+    return render_template("mom2.html")
+
 
 if __name__ == '__main__':
    app.run()
