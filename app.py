@@ -342,7 +342,7 @@ def ttl412():
     return render_template("ttl412.html")
 
 #42
-@app.route("/42/", methods=['GET'])
+@app.route("/dHR0bDQy/", methods=['GET'])
 def ttl42():
     return render_template("ttl42.html")
 @app.route("/42-/", methods=['GET'])
