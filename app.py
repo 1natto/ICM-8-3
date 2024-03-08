@@ -404,18 +404,161 @@ def hddv502():
     return render_template("hddv502.html")
 
 
+#51
+@app.route("/746E6E6D3531/", methods=['GET'])
+def tnnm51():
+    return render_template("tnnm51.html")
+@app.route("/746E6E6D3531==/", methods=['GET'])
+def tnnm512():
+    return render_template("tnnm512.html")
+
+#52
+@app.route("/746E6E6D3532/", methods=['GET'])
+def tnnm52():
+    return render_template("tnnm52.html")
+@app.route("/746E6E6D3532==/", methods=['GET'])
+def tnnm522():
+    return render_template("tnnm522.html")
+
+#53
+@app.route("/746E6E6D3533/", methods=['GET'])
+def tnnm53():
+    return render_template("tnnm53.html")
+@app.route("/746E6E6D3533==/", methods=['GET'])
+def tnnm532():
+    return render_template("tnnm532.html")
+
+#54
+@app.route("/746E6E6D3534/", methods=['GET'])
+def tnnm54():
+    return render_template("tnnm54.html")
+@app.route("/746E6E6D3534==/", methods=['GET'])
+def tnnm542():
+    return render_template("tnnm542.html")
+
+#55
+@app.route("/7074743535/", methods=['GET'])
+def ptt55():
+    return render_template("ptt55.html")
+@app.route("/7074743535==/", methods=['GET'])
+def ptt552():
+    return render_template("ptt552.html")
+
+#56
+@app.route("/6E6E643536/", methods=['GET'])
+def nnd56():
+    return render_template("nnd56.html")
+@app.route("/6E6E643536==/", methods=['GET'])
+def nnd562():
+    return render_template("nnd562.html")
+
+#57
+@app.route("/7474613537==/", methods=['GET'])
+def tta57():
+    return render_template("tta57.html")
+@app.route("/7474613537/", methods=['GET'])
+def tta572():
+    return render_template("tta572.html")
+
+#58
+@app.route("/7074686E3538/", methods=['GET'])
+def pthn58():
+    return render_template("pthn58.html")
+@app.route("/7074686E3538==/", methods=['GET'])
+def pthn582():
+    return render_template("pthn582.html")
+
+#59
+@app.route("/6D743539/", methods=['GET'])
+def mt59():
+    return render_template("mt59.html")
+@app.route("/6D743539==/", methods=['GET'])
+def mt592():
+    return render_template("mt592.html")
+
+#60
+@app.route("/cFF2/", methods=['GET'])
+def pqv1():
+    return render_template("pqv1.html")
+@app.route("/cFF22/", methods=['GET'])
+def pqv2():
+    return render_template("pqv2.html")
+
+#61
+@app.route("/dkhn/", methods=['GET'])
+def vhg1():
+    return render_template("vhg1.html")
+@app.route("/dkhn2/", methods=['GET'])
+def vhg2():
+    return render_template("vhg2.html")
+
+#62
+@app.route("/62/", methods=['GET'])
+def ttl62():
+    return render_template("ttl62.html")
+@app.route("/62-/", methods=['GET'])
+def ttl622():
+    return render_template("ttl622.html")
+
+#63
+@app.route("/63/", methods=['GET'])
+def dhqh():
+    return render_template("dhqh.html")
+@app.route("/63-/", methods=['GET'])
+def dhqh2():
+    return render_template("dhqh2.html")
+
+#64
+@app.route("/64/", methods=['GET'])
+def nmh():
+    return render_template("nmh.html")
+@app.route("/64-/", methods=['GET'])
+def nmh2():
+    return render_template("nmh2.html")
+
+#65
+@app.route("/65/", methods=['GET'])
+def ttl65():
+    return render_template("ttl65.html")
+@app.route("/65-/", methods=['GET'])
+def ttl652():
+    return render_template("ttl652.html")
+
+#66
+@app.route("/66/", methods=['GET'])
+def td():
+    return render_template("td.html")
+@app.route("/66-/", methods=['GET'])
+def td2():
+    return render_template("td2.html")
+
+#67
+@app.route("/67-/", methods=['GET'])
+def dtm():
+    return render_template("dtm.html")
+@app.route("/67/", methods=['GET'])
+def dtm2():
+    return render_template("dtm2.html")
+
+#68
+@app.route("/68/", methods=['GET'])
+def td3():
+    return render_template("td3.html")
+@app.route("/68-/", methods=['GET'])
+def td4():
+    return render_template("td4.html")
+
 #pdna
 
 #+mevo
-
-
-
-if __name__ == '__main__':
-   app.run()
-
 @app.route("/bWV2bzE=/", methods=['GET'])
 def mevo():
     return render_template("mevo1.html")
 @app.route("/bWV2bzE=1/", methods=['GET'])
 def mevo2():
     return render_template("mevo2.html")
+
+
+if __name__ == '__main__':
+   app.run()
+
