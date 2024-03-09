@@ -342,10 +342,10 @@ def ttl412():
     return render_template("ttl412.html")
 
 #42
-@app.route("/dHR0bDQy/", methods=['GET'])
+@app.route("/dHR0bDQy==/", methods=['GET'])
 def ttl42():
     return render_template("ttl42.html")
-@app.route("/dHR0bDQy==/", methods=['GET'])
+@app.route("/dHR0bDQy/", methods=['GET'])
 def ttl422():
     return render_template("ttl422.html")
 
@@ -553,10 +553,10 @@ def dtm2():
     return render_template("dtm2.html")
 
 #68
-@app.route("/68/", methods=['GET'])
+@app.route("/68-/", methods=['GET'])
 def td3():
     return render_template("td3.html")
-@app.route("/68-/", methods=['GET'])
+@app.route("/68/", methods=['GET'])
 def td4():
     return render_template("td4.html")
 
